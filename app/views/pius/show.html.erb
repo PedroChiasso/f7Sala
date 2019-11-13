@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>User:</strong>
+  <%= @piu.user_id %>
+</p>
+
+<p>
+  <strong>Content:</strong>
+  <%= @piu.content %>
+</p>
+
+<%= link_to 'Edit', edit_piu_path(@piu) %> |
+<%= link_to 'Back', pius_path %>
